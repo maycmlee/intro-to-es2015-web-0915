@@ -25,6 +25,7 @@ describe("Programmer", function(){
     let programmer = new Programmer("Steven", "Elixir");
     expect(programmer.language).to.eq("Elixir");
   });
+  
   it("is excited about programming", function(){
     let programmer = new Programmer("Steven", "Elixir");
     expect(programmer.evangelize()).to.eq("Steven: ELIXIR IS THE BEST LANGUAGE EVER");
